@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Nextplate",
+    "title": "Citizenship Now",
     "base_url": "https://nextplate.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "180",
     "logo_height": "52",
-    "logo_text": "Nextplate"
+    "logo_text": "Citizenship Now"
   },
 
   "settings": {
