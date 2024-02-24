@@ -24,39 +24,27 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14">
+      <section className="section pt-14 pb-0  md:pb-14">
         <div className="container">
           <div className="row justify-center">
-            <div className="lg:col-7 md:col-9 mb-8 text-center">
+            <div className="lg:col-7 md:col-9 mb-8 text-center ">
               <h1
-                className="mb-4 text-h3 lg:text-h1"
+                className="mb-4 text-h3 lg:text-h1 text-citizenBlue"
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
               <p
                 className="mb-8"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
-              {banner.button!.enable && (
-                <Link
-                  className="btn btn-primary"
-                  href={banner.button!.link}
-                  target={
-                    banner.button!.link.startsWith("http") ? "_blank" : "_self"
-                  }
-                  rel="noopener"
-                >
-                  {banner.button!.label}
-                </Link>
-              )}
             </div>
             {banner.image && (
-              <div className="col-12">
+              <div className="col-12 hidden md:block">
                 <ImageFallback
                   src={banner.image}
-                  className="mx-auto"
-                  width="800"
-                  height="420"
+                  width="1280"
+                  height="320"
                   alt="banner image"
+                  className="mx-auto w-full"
                   priority
                 />
               </div>
@@ -90,7 +78,7 @@ const Home = () => {
                 }`}
               >
                 <h2
-                  className="mb-4"
+                  className="mb-4 text-citizenBlue"
                   dangerouslySetInnerHTML={markdownify(feature.title)}
                 />
                 <p
@@ -100,19 +88,16 @@ const Home = () => {
                 <ul>
                   {feature.bulletpoints.map((bullet: string) => (
                     <li className="relative mb-4 pl-6" key={bullet}>
-                      <FaCheck className={"absolute left-0 top-1.5"} />
-                      <span dangerouslySetInnerHTML={markdownify(bullet)} />
+                      <FaCheck
+                        className={"absolute left-0 top-1.5 text-citizenBlue"}
+                      />
+                      <span
+                        className="font-black text-black"
+                        dangerouslySetInnerHTML={markdownify(bullet)}
+                      />
                     </li>
                   ))}
                 </ul>
-                {feature.button.enable && (
-                  <Link
-                    className="btn btn-primary mt-5"
-                    href={feature.button.link}
-                  >
-                    {feature.button.label}
-                  </Link>
-                )}
               </div>
             </div>
           </div>

@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  title: "Ese cambio que tanto necesitas está en Italia!"
+  content: "Descubre la transformación que buscas con Citizenship Now. Nos especializamos en hacer realidad tu sueño de obtener la ciudadanía italiana."
   image: "/images/banner.png"
   button:
     enable: true
@@ -11,41 +11,41 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
+  - title: "Gran variedad de servicios"
     image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+    content: "Nuestro compromiso no se limita a los papeles, estamos aquí para ti en cada paso, desde la búsqueda de tus actas hasta la emocionante entrega de tu ciudadanía."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Búsqueda de actas italianas"
+      - "Aseveración"
+      - "Apostilla"
+      - "Control de carpetas y análisis"
+      - "Traducción"
+      - "Acompañaniemto en Italia"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Next"
+  - title: "Permiso de trabajo GARANTIZADO en Italia"
     image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Con nuestro exclusivo paquete de Permiso de Trabajo Garantizado en Italia, te aseguramos un camino hacia el éxito laboral y personal. "
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Preparación profesional"
+      - "Integración social"
+      - "Asistencia sanitaria"
     button:
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/nextplate"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
+  - title: "Transporte en Italia"
     image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Citizenship Now te ofrece un servicio de traslado desde el aeropuerto hasta tu nuevo hogar."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "No tendrás que preocuparte por buscar un taxi o el transporte público. Te recogeremos y te llevaremos directamente a tu destino. 🚖"
+      - "Ahorro de tiempo: Evitarás largas esperas en el aeropuerto. Te esperamos y te llevamos a tu destino de inmediato. ⏱️"
+      - "Seguridad: Nuestros conductores profesionales te garantizan un viaje seguro y sin preocupaciones. 👮‍♂️"
+
     button:
       enable: false
       label: ""

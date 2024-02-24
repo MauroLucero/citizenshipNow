@@ -10,7 +10,7 @@ const Breadcrumbs = ({ className }: { className?: string }) => {
   const paths = pathname.split("/").filter((x) => x);
   let parts = [
     {
-      label: "Home",
+      label: "Principal",
       href: "/",
       "aria-label": pathname === "/" ? "page" : undefined,
     },
@@ -41,7 +41,7 @@ const Breadcrumbs = ({ className }: { className?: string }) => {
               </Link>
             ) : (
               <span className="text-light dark:text-darkmode-light">
-                {label}
+                Contacto
               </span>
             )}
           </li>

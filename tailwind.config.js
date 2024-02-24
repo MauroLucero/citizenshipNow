@@ -44,6 +44,9 @@ module.exports = {
       padding: "2rem",
     },
     extend: {
+      textColor: {
+        citizenBlue: "#0000ff",
+      },
       colors: {
         text: theme.colors.default.text_color.default,
         light: theme.colors.default.text_color.light,
