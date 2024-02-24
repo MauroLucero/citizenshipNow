@@ -1,8 +1,8 @@
 ---
 title: "Citizenship NOW"
-meta_title: "About"
-description: "this is meta description"
-image: "/images/cT_logo.png"
+meta_title: "Sobre nosotros"
+description: "Sobre nosotros"
+image: "/images/ct_longLogo.png"
 draft: false
 ---
 

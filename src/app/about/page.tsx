@@ -24,17 +24,14 @@ const About = () => {
             <div className="text-center md:col-10 lg:col-7">
               {image && (
                 <ImageFallback
-                  className="mx-auto mb-6 rounded-lg"
+                  className="mx-auto mb-6"
                   src={image}
-                  width={200}
-                  height={200}
+                  width={900}
+                  height={308}
                   alt={title}
                 />
               )}
-              <h2
-                dangerouslySetInnerHTML={markdownify(title)}
-                className="h3 mb-6"
-              />
+
               <div className="content">
                 <MDXContent content={content} />
               </div>
