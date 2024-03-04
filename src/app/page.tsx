@@ -24,31 +24,20 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14 pb-0  md:pb-14">
+      <section className="section pt-14 pb-0  md:pb-14  bg-[url('/images/banner.png')] bg-no-repeat ">
         <div className="container">
           <div className="row justify-center">
             <div className="lg:col-7 md:col-9 mb-8 text-center ">
               <h1
-                className="mb-4 text-h3 lg:text-h1 text-citizenBlue"
+                className="mb-4 text-h3 lg:text-h1 text-white"
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
               <p
-                className="mb-8"
+                className="mb-8 text-white"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
             </div>
-            {banner.image && (
-              <div className="col-12 hidden md:block">
-                <ImageFallback
-                  src={banner.image}
-                  width="1280"
-                  height="320"
-                  alt="banner image"
-                  className="mx-auto w-full"
-                  priority
-                />
-              </div>
-            )}
+            {banner.image && <div className="col-12 hidden md:block"></div>}
           </div>
         </div>
       </section>
@@ -92,7 +81,7 @@ const Home = () => {
                         className={"absolute left-0 top-1.5 text-citizenBlue"}
                       />
                       <span
-                        className="font-black text-black"
+                        className="font-black text-black dark:text-white"
                         dangerouslySetInnerHTML={markdownify(bullet)}
                       />
                     </li>

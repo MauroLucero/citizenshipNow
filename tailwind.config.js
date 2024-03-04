@@ -48,6 +48,8 @@ module.exports = {
         citizenBlue: "#0000ff",
       },
       colors: {
+        citizenBg: "#0000ff",
+        crdBg: "#0000ffbf",
         text: theme.colors.default.text_color.default,
         light: theme.colors.default.text_color.light,
         dark: theme.colors.default.text_color.dark,
